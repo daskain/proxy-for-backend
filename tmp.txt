@@ -1,0 +1,9 @@
+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
+
+https://github.com/daskain/proxy-for-backend.git
+
+git@github.com:daskain/proxy-for-backend.git
+
+https://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@github.com/daskain/proxy-for-backend.git
+
+$docker build -t daskain/proxy-for-backend:0.1.0 -f docker/Dockerfile .
