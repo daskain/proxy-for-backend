@@ -1,0 +1,12 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    group:
+      id: order-handler
+    auto:
+      offset:
+        reset: latest
+
+kafka:
+  topic:
+    requestOrder: request_order
